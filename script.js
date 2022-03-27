@@ -1,7 +1,3 @@
-/*jshint esversion: 6 */
-
-
-
 // header time
 {
     var day = moment().format("llll");

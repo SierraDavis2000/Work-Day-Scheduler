@@ -4,6 +4,7 @@ body {
   line-height: 1;
 }
 
+
 textarea{
   background: transparent;
   border: none;
@@ -34,6 +35,16 @@ textarea{
   white-space: pre-wrap;
   height: 80px;
   border-top: 1px solid white;;
+}
+
+.row {
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: nowrap;
+  margin-right: -15px;
+  margin-left: -15px;
+  align-content: flex-start;
+  justify-content: center;
 }
 
 .hour {
@@ -69,3 +80,5 @@ textarea{
   font-size: 20px;
   transition: all .3s ease-in-out;
 }
+
+
